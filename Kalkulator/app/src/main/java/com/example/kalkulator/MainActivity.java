@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public static double nilaiSekarang = 0;
     public static String operasiSekarang = "";
-    public static double hasil = "";
+    public static double hasil =0.0;
 
 
 
@@ -194,7 +194,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 int nilaiTemp = (int) hasil;
 
-                //2.1 == 22 tidak sama
+                //2.1 == 2? tidak sama
                 if (nilaiTemp == hasil) {
                     editTextLayar.setText(String.valueOf((int)hasil));
                 }else {
